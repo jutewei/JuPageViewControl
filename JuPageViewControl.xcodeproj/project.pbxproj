@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC4630181DBBBB8B004FD55F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4630171DBBBB8B004FD55F /* main.m */; };
+		DC46301B1DBBBB8B004FD55F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC46301A1DBBBB8B004FD55F /* AppDelegate.m */; };
+		DC46301E1DBBBB8B004FD55F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC46301D1DBBBB8B004FD55F /* ViewController.m */; };
+		DC4630211DBBBB8B004FD55F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC46301F1DBBBB8B004FD55F /* Main.storyboard */; };
+		DC4630231DBBBB8B004FD55F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4630221DBBBB8B004FD55F /* Assets.xcassets */; };
+		DC4630261DBBBB8B004FD55F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4630241DBBBB8B004FD55F /* LaunchScreen.storyboard */; };
+		DC46302F1DBBBBC8004FD55F /* JuPageViewControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DC46302E1DBBBBC8004FD55F /* JuPageViewControl.m */; };
+		DC46303B1DBBBBE5004FD55F /* JuLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4630321DBBBBE5004FD55F /* JuLayout.m */; };
+		DC46303C1DBBBBE5004FD55F /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4630341DBBBBE5004FD55F /* UIView+Frame.m */; };
+		DC46303D1DBBBBE5004FD55F /* UIView+JuConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4630361DBBBBE5004FD55F /* UIView+JuConstraint.m */; };
+		DC46303E1DBBBBE5004FD55F /* UIView+JuLayGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4630381DBBBBE5004FD55F /* UIView+JuLayGroup.m */; };
+		DC46303F1DBBBBE5004FD55F /* UIView+JuLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DC46303A1DBBBBE5004FD55F /* UIView+JuLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC4630131DBBBB8B004FD55F /* JuPageViewControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuPageViewControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4630171DBBBB8B004FD55F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC4630191DBBBB8B004FD55F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC46301A1DBBBB8B004FD55F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC46301C1DBBBB8B004FD55F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC46301D1DBBBB8B004FD55F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC4630201DBBBB8B004FD55F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC4630221DBBBB8B004FD55F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC4630251DBBBB8B004FD55F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC4630271DBBBB8B004FD55F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC46302D1DBBBBC8004FD55F /* JuPageViewControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuPageViewControl.h; sourceTree = "<group>"; };
+		DC46302E1DBBBBC8004FD55F /* JuPageViewControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuPageViewControl.m; sourceTree = "<group>"; };
+		DC4630311DBBBBE5004FD55F /* JuLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuLayout.h; sourceTree = "<group>"; };
+		DC4630321DBBBBE5004FD55F /* JuLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuLayout.m; sourceTree = "<group>"; };
+		DC4630331DBBBBE5004FD55F /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		DC4630341DBBBBE5004FD55F /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		DC4630351DBBBBE5004FD55F /* UIView+JuConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JuConstraint.h"; sourceTree = "<group>"; };
+		DC4630361DBBBBE5004FD55F /* UIView+JuConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JuConstraint.m"; sourceTree = "<group>"; };
+		DC4630371DBBBBE5004FD55F /* UIView+JuLayGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JuLayGroup.h"; sourceTree = "<group>"; };
+		DC4630381DBBBBE5004FD55F /* UIView+JuLayGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JuLayGroup.m"; sourceTree = "<group>"; };
+		DC4630391DBBBBE5004FD55F /* UIView+JuLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JuLayout.h"; sourceTree = "<group>"; };
+		DC46303A1DBBBBE5004FD55F /* UIView+JuLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JuLayout.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC4630101DBBBB8B004FD55F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC46300A1DBBBB8B004FD55F = {
+			isa = PBXGroup;
+			children = (
+				DC4630151DBBBB8B004FD55F /* JuPageViewControl */,
+				DC4630141DBBBB8B004FD55F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC4630141DBBBB8B004FD55F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC4630131DBBBB8B004FD55F /* JuPageViewControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC4630151DBBBB8B004FD55F /* JuPageViewControl */ = {
+			isa = PBXGroup;
+			children = (
+				DC4630301DBBBBE5004FD55F /* Layout */,
+				DC4630191DBBBB8B004FD55F /* AppDelegate.h */,
+				DC46301A1DBBBB8B004FD55F /* AppDelegate.m */,
+				DC46301C1DBBBB8B004FD55F /* ViewController.h */,
+				DC46301D1DBBBB8B004FD55F /* ViewController.m */,
+				DC46302D1DBBBBC8004FD55F /* JuPageViewControl.h */,
+				DC46302E1DBBBBC8004FD55F /* JuPageViewControl.m */,
+				DC46301F1DBBBB8B004FD55F /* Main.storyboard */,
+				DC4630221DBBBB8B004FD55F /* Assets.xcassets */,
+				DC4630241DBBBB8B004FD55F /* LaunchScreen.storyboard */,
+				DC4630271DBBBB8B004FD55F /* Info.plist */,
+				DC4630161DBBBB8B004FD55F /* Supporting Files */,
+			);
+			path = JuPageViewControl;
+			sourceTree = "<group>";
+		};
+		DC4630161DBBBB8B004FD55F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC4630171DBBBB8B004FD55F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC4630301DBBBBE5004FD55F /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				DC4630311DBBBBE5004FD55F /* JuLayout.h */,
+				DC4630321DBBBBE5004FD55F /* JuLayout.m */,
+				DC4630331DBBBBE5004FD55F /* UIView+Frame.h */,
+				DC4630341DBBBBE5004FD55F /* UIView+Frame.m */,
+				DC4630351DBBBBE5004FD55F /* UIView+JuConstraint.h */,
+				DC4630361DBBBBE5004FD55F /* UIView+JuConstraint.m */,
+				DC4630371DBBBBE5004FD55F /* UIView+JuLayGroup.h */,
+				DC4630381DBBBBE5004FD55F /* UIView+JuLayGroup.m */,
+				DC4630391DBBBBE5004FD55F /* UIView+JuLayout.h */,
+				DC46303A1DBBBBE5004FD55F /* UIView+JuLayout.m */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC4630121DBBBB8B004FD55F /* JuPageViewControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC46302A1DBBBB8B004FD55F /* Build configuration list for PBXNativeTarget "JuPageViewControl" */;
+			buildPhases = (
+				DC46300F1DBBBB8B004FD55F /* Sources */,
+				DC4630101DBBBB8B004FD55F /* Frameworks */,
+				DC4630111DBBBB8B004FD55F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JuPageViewControl;
+			productName = JuPageViewControl;
+			productReference = DC4630131DBBBB8B004FD55F /* JuPageViewControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC46300B1DBBBB8B004FD55F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Juvid;
+				TargetAttributes = {
+					DC4630121DBBBB8B004FD55F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DC46300E1DBBBB8B004FD55F /* Build configuration list for PBXProject "JuPageViewControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC46300A1DBBBB8B004FD55F;
+			productRefGroup = DC4630141DBBBB8B004FD55F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC4630121DBBBB8B004FD55F /* JuPageViewControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC4630111DBBBB8B004FD55F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4630261DBBBB8B004FD55F /* LaunchScreen.storyboard in Resources */,
+				DC4630231DBBBB8B004FD55F /* Assets.xcassets in Resources */,
+				DC4630211DBBBB8B004FD55F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC46300F1DBBBB8B004FD55F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC46303D1DBBBBE5004FD55F /* UIView+JuConstraint.m in Sources */,
+				DC46303C1DBBBBE5004FD55F /* UIView+Frame.m in Sources */,
+				DC46303B1DBBBBE5004FD55F /* JuLayout.m in Sources */,
+				DC46301E1DBBBB8B004FD55F /* ViewController.m in Sources */,
+				DC46303E1DBBBBE5004FD55F /* UIView+JuLayGroup.m in Sources */,
+				DC46301B1DBBBB8B004FD55F /* AppDelegate.m in Sources */,
+				DC46303F1DBBBBE5004FD55F /* UIView+JuLayout.m in Sources */,
+				DC46302F1DBBBBC8004FD55F /* JuPageViewControl.m in Sources */,
+				DC4630181DBBBB8B004FD55F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC46301F1DBBBB8B004FD55F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4630201DBBBB8B004FD55F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC4630241DBBBB8B004FD55F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4630251DBBBB8B004FD55F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC4630281DBBBB8B004FD55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC4630291DBBBB8B004FD55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC46302B1DBBBB8B004FD55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JuPageViewControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Juvid.JuPageViewControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC46302C1DBBBB8B004FD55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JuPageViewControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Juvid.JuPageViewControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC46300E1DBBBB8B004FD55F /* Build configuration list for PBXProject "JuPageViewControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4630281DBBBB8B004FD55F /* Debug */,
+				DC4630291DBBBB8B004FD55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC46302A1DBBBB8B004FD55F /* Build configuration list for PBXNativeTarget "JuPageViewControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC46302B1DBBBB8B004FD55F /* Debug */,
+				DC46302C1DBBBB8B004FD55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC46300B1DBBBB8B004FD55F /* Project object */;
+}
